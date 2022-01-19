@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0;net6.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>System.Text.Json.Serialization</RootNamespace>
+    <PackageId>MikaelDui.DotNet.Text.Json.Serialization</PackageId>
+    <Authors>Mikael Dúi Bolinder</Authors>
+    <Product>MikaelDui.DotNet.Text.Json.Serialization</Product>
+    <Description>Extra classes for System.Text.Json.Serialization</Description>
+    <PackageProjectUrl>https://github.com/mikaeldui/text-json-serialization-dotnet</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>DotNet.Text.Json.Serialization.png</PackageIcon>
+    <RepositoryUrl>https://github.com/mikaeldui/text-json-serialization-dotnet</RepositoryUrl>
+    <PackageTags></PackageTags>
+    <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+    <AssemblyName>MikaelDui.DotNet.Text.Json.Serialization</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\DotNet.Text.Json.Serialization.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
