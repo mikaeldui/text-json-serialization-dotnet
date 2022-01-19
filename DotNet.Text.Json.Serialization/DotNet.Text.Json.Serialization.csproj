@@ -6,9 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>System.Text.Json.Serialization</RootNamespace>
-    <PackageId>MikaelDui.DotNet.Text.Json.Serialization</PackageId>
+    <PackageId>MikaelDui.Text.Json.Serialization</PackageId>
     <Authors>Mikael Dúi Bolinder</Authors>
-    <Product>MikaelDui.DotNet.Text.Json.Serialization</Product>
+    <Product>MikaelDui.Text.Json.Serialization</Product>
     <Description>Extra classes for System.Text.Json.Serialization</Description>
     <PackageProjectUrl>https://github.com/mikaeldui/text-json-serialization-dotnet</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -16,7 +16,7 @@
     <RepositoryUrl>https://github.com/mikaeldui/text-json-serialization-dotnet</RepositoryUrl>
     <PackageTags></PackageTags>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
-    <AssemblyName>MikaelDui.DotNet.Text.Json.Serialization</AssemblyName>
+    <AssemblyName>MikaelDui.Text.Json.Serialization</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,6 +28,10 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MikaelDui.Extensions" Version="*" />
   </ItemGroup>
 
 </Project>
